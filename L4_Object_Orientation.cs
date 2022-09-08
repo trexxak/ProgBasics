@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CsharpBasics
+﻿namespace CsharpBasics
 {
     internal class L4_Object_Orientation
     {
-        // Felder: Methoden und Eigenschaften (Properties)
+        // Member: Methoden und Felder
 
-        // VERERBUNG durch... Vererbung
+        // VERERBUNG durch Klassenvererbung
 
         // DATENKAPSELUNG durch Zugriffsmodifizierer
 

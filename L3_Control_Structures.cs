@@ -99,7 +99,32 @@ namespace CsharpBasics
                 Console.WriteLine($"{element}");
             }
 
+        }
 
+        // Exception-Handling
+        public static void exceptions()
+        {
+            try // Versucht die Ausführung des Try-Codeblocks
+            {
+
+                //int impossible = 0 / 0;
+
+                int maskedZero = 0;
+                int maskedImpossible = maskedZero / maskedZero;
+            }
+            catch (Exception)   // Sollte während der Ausführung des Try-Blocks ein Kompilierfehler
+            {                   // auftreten, so wird dieser Anweisungsblock durchgeführt.
+                                // statt den Benutzer mit dem Schließen des Programmes zu erschrecken,
+                                // lässt sich so die Verhaltensweise des Programmes selbst bestimmen.
+
+                Console.WriteLine("Geht nicht.");
+
+                //throw;  // throw -> "schmeißt" Fehler
+            }
+            finally // nicht zwingend notwendig. Wird in jedem Fall am Ende ausgeführt.
+            {
+                Console.WriteLine("Danke für den Versuch...");
+            }
         }
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CsharpBasics
+﻿namespace CsharpBasics
 {
     public static class L2_Variables_and_Operators
     {
