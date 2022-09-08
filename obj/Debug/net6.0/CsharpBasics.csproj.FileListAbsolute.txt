@@ -1,0 +1,15 @@
+C:\Users\mmachat\Source\Repos\ProgBasics\bin\Debug\net6.0\CsharpBasics.exe
+C:\Users\mmachat\Source\Repos\ProgBasics\bin\Debug\net6.0\CsharpBasics.deps.json
+C:\Users\mmachat\Source\Repos\ProgBasics\bin\Debug\net6.0\CsharpBasics.runtimeconfig.json
+C:\Users\mmachat\Source\Repos\ProgBasics\bin\Debug\net6.0\CsharpBasics.dll
+C:\Users\mmachat\Source\Repos\ProgBasics\bin\Debug\net6.0\CsharpBasics.pdb
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.csproj.AssemblyReference.cache
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.AssemblyInfoInputs.cache
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.AssemblyInfo.cs
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.csproj.CoreCompileInputs.cache
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.dll
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\refint\CsharpBasics.dll
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.pdb
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\CsharpBasics.genruntimeconfig.cache
+C:\Users\mmachat\Source\Repos\ProgBasics\obj\Debug\net6.0\ref\CsharpBasics.dll

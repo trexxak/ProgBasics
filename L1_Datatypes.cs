@@ -29,7 +29,7 @@ namespace CsharpBasics
             Console.WriteLine(42 + 1.234m);
 
             Console.WriteLine(9223372036854775807 - 1);
-            //WriteLine(1.234m - 1.234f); // GEHT NICHT!
+            //Console.WriteLine(1.234m - 1.234f); // GEHT NICHT!
 
         }
 

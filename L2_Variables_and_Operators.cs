@@ -26,17 +26,38 @@ namespace CsharpBasics
             int y = 5; // Inline Deklaration + Initialisierung
 
 
-
-
             // Zuweisung
+            //y = 65;
+            //Console.WriteLine(y);
+            //y += 1;
+            //Console.WriteLine(y);
+            //y -= 2;
+            //Console.WriteLine(y);
 
-            x = 6;
+            //y *= 3;
+            //Console.WriteLine(y);
 
-            y += 1;
-            y -= 2;
-            y *= 3;
-            y /= 4;
-            y %= 5;
+            //y /= 4;
+            //Console.WriteLine(y);
+
+            //y %= 5;
+            //Console.WriteLine(y);
+
+
+            // Beispiele
+
+            bool running; // Deklaration - Speicherplatz reserviert, 
+
+            running = true; // Initialisierung
+
+            while (running)
+            {
+                Console.WriteLine("läuft.");
+                running = false; // Zuweisung
+            }
+
+            bool debug = true; // Deklaration + Initialisierung
+            Console.WriteLine(debug);
 
         }
 

@@ -68,36 +68,38 @@ namespace CsharpBasics
         }
 
         // Schleifen
-        public static string schleifen(bool istBereit)
+        public static void schleifen(bool istBereit)
         {
-            string result = "";
-            string[] myArray = { "Schere", "Stein", "Papier" };
-            while (istBereit) // kopfgesteuerte Schleife
-            {
-                return "Ich bin bereit!";
-            }
 
-            do // fußgesteuerte Schleife wird mindestens ein mal ausgeführt!
-            {
-                return "Ich bin bereit!";
+            //while (istBereit) // kopfgesteuerte Schleife
+            //{
+            //    return "Ich bin bereit!";
+            //}
 
-            } while (istBereit) ;
+            //do // fußgesteuerte Schleife wird mindestens ein mal ausgeführt!
+            //{
+            //    return "Ich bin bereit!";
 
-            for (int i = 0; i < 100; i++) // zählergesteuerte Schleife
-            {
-                result += i;
-            }
+            //} while (istBereit) ;
 
-            for (int j = 0; j <= myArray.Length - 1; j++)
+            //for (int i = 0; i < 100; i++) // zählergesteuerte Schleife
+            //{
+            //    result += i;
+            //}
+
+            string[] myArray = { "Schere", "Stein", "Papier", "Brunnen" };
+
+            for (int j = 0; j < myArray.Length; j++)
             {
-                result += myArray[j];
+                Console.WriteLine($"Index: {j} - {myArray[j]}");
             }
 
             foreach (string element in myArray)
             {
-                result += element;
+                Console.WriteLine($"{element}");
             }
-            return result;
+
+
         }
     }
 }

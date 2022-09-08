@@ -29,7 +29,7 @@ namespace CsharpBasics
 
         public static void fizzBuzz()
         {
-            for (int i = 1; i < 151; i++)
+            for (int i = 0; i < 15; i++)
             {
                 if (i % 15 == 0)
                 {
@@ -58,13 +58,15 @@ namespace CsharpBasics
 
         public static void schaltjahrRechner()
         {
+            Console.Write("Geben Sie bitte ein Jahr ein: ");
             string eingabe = Console.ReadLine();
             int jahr = int.Parse(eingabe);
+
             if (jahr % 4 == 0 && jahr % 100 != 0)
             {
-                Console.WriteLine(jahr + " ist ein Schaltjahr.");
+                Console.WriteLine($"{eingabe} ist ein Schaltjahr.");
             }
-            else if (jahr % 4 == 0 && jahr % 400 != 0)
+            else if (jahr % 4 == 0 && jahr % 400 == 0)
             {
                 Console.WriteLine($"{eingabe} ist ein Schaltjahr.");
             }
@@ -77,26 +79,36 @@ namespace CsharpBasics
         // Schreiben Sie ein Programm, welches eine Ganzzahl als Benutzereingabe
         // annimmt, und als binäre Zahlenfolge zurückgibt.
         //
-        // Bsp.: Eingabe = 32 -> Ausgabe = 00011111
+        // Bsp.: Eingabe = 31 -> Ausgabe = 00011111
 
         public static void binaerzahlRechner()
         {
             string result = "";
-            int eingabe = int.Parse(Console.ReadLine());
+            //int eingabe = int.Parse(Console.ReadLine());
 
+            int eingabe = 127;
             for (int i = 128; i > 0; i/=2)
             {
-                if (eingabe > i)
+                Console.WriteLine("Runde: " + i);
+
+                if (eingabe >= i)
                 {
+                    Console.WriteLine("Zähler: "+i);
+                    Console.WriteLine("Eingabe: " + eingabe);
+
                     result += "1";
+                    eingabe -= i;
                 }
                 else
                 {
+                    Console.WriteLine("Zähler: " + i);
+                    Console.WriteLine("Eingabe: " + eingabe);
+
                     result += "0";
                 }
+                Console.WriteLine("\n\n");
             }
             Console.WriteLine(result);
-
         }
 
         //      Schreiben Sie ein Programm, dass die Menüführung eines

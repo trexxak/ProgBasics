@@ -10,7 +10,25 @@ using static CsharpBasics.L4_Object_Orientation;
 
 //// PLAYGROUND:
 
-startCalculator();
+schleifen(true);
+
+//variablen();
+
+//binaerzahlRechner();
+
+//int a = 0;
+//int b = 0;
+//int c = 0;
+//int d = 0;
+
+//schaltjahrRechner();
+
+//WriteLine(a + "ist a, " + b + " ist b," + c + " ist c, " + d + " ist d");
+//WriteLine($"{a} ist a, {b} ist b, {c} ist c, {d} ist d");
+
+
+//schaltjahrRechner();
+
 
 
 //// AUSGABE:
