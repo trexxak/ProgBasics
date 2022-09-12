@@ -98,7 +98,6 @@ namespace CsharpBasics
             {
                 Console.WriteLine($"{element}");
             }
-
         }
 
         // Exception-Handling
@@ -121,6 +120,7 @@ namespace CsharpBasics
 
                 //throw;  // throw -> "schmeißt" Fehler
             }
+
             finally // nicht zwingend notwendig. Wird in jedem Fall am Ende ausgeführt.
             {
                 Console.WriteLine("Danke für den Versuch...");

@@ -70,15 +70,32 @@
         }
 
         // (Eindimensionale) Arrays
-        public static void ArrayDatentyp()
+        public static void arrayDatentyp()
         {
             int[] ganzzahlArray = { 12, 24, 36, 48, 50, 62 };
 
             string[] zeichenkettenArray = { "stingray", "shark", "some fish" };
         }
 
-        // NULL-Wert
-        public static void Nulled()
+        // Ein- und Ausgabe
+
+        public static void ausgabeDemo()
+        {
+            Console.WriteLine(""); // Konsolenausgabe mit Absatz.
+
+            Console.Write(""); // Konsolenausgabe ohne Absatz.
+
+        }
+
+        public static void eingabeDemo()
+        {
+            Console.Read(); // Konsoleneingabe für ein Zeichen (char).
+
+            Console.ReadLine(); // Konsoleneingabe für eine Zeichenkette (string). Um zur nächsten Anweisung zu springen muss ein Absatz gegeben werden.
+        }
+
+        // null-Wert
+        public static void nulled()
         {
             // In speziellen Fällen ist es möglicherweise erwägenswert eine Variable
             // zwar zu initialisieren, ihr vorerst aber nur einen "leeren" Wert zuzuweisen.
@@ -86,23 +103,26 @@
             // Andere Anwendungen können es benötigen eine Variable zu entleeren, um nicht
             // versehentlich unerwartete Ergebnisse zu liefern.
 
-            // Eine dritte Anwendung ist die Übernahme von Werten über eine Programmierschnittstelle (API)
+            // Eine dritte Anwendung ist die Übernahme von Werten über eine Programmschnittstelle (API)
             // in das eigene Programm. 
 
-            string nulled = null; // CS8600
+            string nulled = null; // Hinweiscode CS8600
             string? nulled2 = null;
 
             if (nulled == null && nulled2 == null){
                 Console.WriteLine("Beides nichts.");
             }
+
+            // WICHTIG: Eine nur deklarierte Variable enthält KEINEN Wert, also auch nicht "null"!
+            // AUCH WICHTIG: null ist NICHT 0, false oder entspricht einem leeren String!
         }
 
         //// KONVERTIEREN
-        public static void ConvertParseTryparse()
+        public static void convertParseTryparse()
         {
             string f = "248,23";
 
-            float g,h,k;
+            float g,h,k; // Deklaration mehrerer Variablen desselben Typs
 
             g = Convert.ToSingle(f); // konvertiert f zu float (interner Typ: single)
                                      // der Wert "false" wird zu 0 konvertiert.

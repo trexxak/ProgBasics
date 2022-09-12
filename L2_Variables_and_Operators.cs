@@ -21,21 +21,22 @@
 
 
             // Zuweisung
-            //y = 65;
-            //Console.WriteLine(y);
-            //y += 1;
-            //Console.WriteLine(y);
-            //y -= 2;
-            //Console.WriteLine(y);
 
-            //y *= 3;
-            //Console.WriteLine(y);
+            y = 65;
+            Console.WriteLine(y);
+            y += 1;
+            Console.WriteLine(y);
+            y -= 2;
+            Console.WriteLine(y);
 
-            //y /= 4;
-            //Console.WriteLine(y);
+            y *= 3;
+            Console.WriteLine(y);
 
-            //y %= 5;
-            //Console.WriteLine(y);
+            y /= 4;
+            Console.WriteLine(y);
+
+            y %= 5;
+            Console.WriteLine(y);
 
 
             // Beispiele
